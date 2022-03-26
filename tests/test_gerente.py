@@ -49,7 +49,7 @@ def test_normalizacao_dos_dados_classe_gerente():
     }
 
     gerente = Gerente(nome="  monkey  ", sobrenome=" d.    luffy  ", cpf="12345678910")
-
+    print(gerente)
     assert gerente.__dict__ == esperado
 
 
